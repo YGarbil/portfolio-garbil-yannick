@@ -346,7 +346,7 @@ h2 {
 }
 
 .design-ux:hover {
-  background-image: url(/Image/fond-flouter-ux.png);
+  background-image: url(../Image/fond-flouter-ux.png);
   cursor: pointer;
   background-position: center;
   font-weight: 200;
@@ -374,7 +374,7 @@ h2 {
 }
 
 .integration-web:hover {
-  background-image: url(/Image/fond-flouter-intégration.png);
+  background-image: url(../Image/fond-flouter-intégration.png);
   cursor: pointer;
   background-position: center;
   font-weight: 200;
@@ -524,7 +524,7 @@ h2 {
   margin-top: 120px;
   padding-top: 20px;
   padding-bottom: 80px;
-  background-image: url(/Image/fond-portfolio.jpg);
+  background-image: url(../Image/fond-portfolio.jpg);
 
 }
 
@@ -545,7 +545,7 @@ h2 {
 }
 
 .sizodor {
-  background-image: url(/Image/sizodor.jpg);
+  background-image: url(../Image/sizodor.jpg);
   width: 518px;
   height: 297px;
   cursor: pointer;
@@ -590,11 +590,11 @@ h2 {
 }
 
 .sizodor:hover {
-  background-image: url(/Image/sizodor-blur.jpg);
+  background-image: url(../Image/sizodor-blur.jpg);
 }
 
 .upgrade {
-  background-image: url(/Image/upgrade.jpg);
+  background-image: url(../Image/upgrade.jpg);
   width: 518px;
   height: 297px;
   cursor: pointer;
@@ -642,11 +642,11 @@ h2 {
 }
 
 .upgrade:hover {
-  background-image: url(/Image/upgrade-blur.jpg);
+  background-image: url(../Image/upgrade-blur.jpg);
 }
 
 .harmonie {
-  background-image: url(/Image/harmoniemusic.jpg);
+  background-image: url(../Image/harmoniemusic.jpg);
   width: 518px;
   height: 297px;
   cursor: pointer;
@@ -691,11 +691,11 @@ h2 {
 }
 
 .harmonie:hover {
-  background-image: url(/Image/harmonie-blur.jpg);
+  background-image: url(../Image/harmonie-blur.jpg);
 }
 
 .kinetyoga {
-  background-image: url(/Image/kinetyoga.jpg);
+  background-image: url(../Image/kinetyoga.jpg);
   width: 518px;
   height: 297px;
   cursor: pointer;
@@ -740,7 +740,7 @@ h2 {
 }
 
 .kinetyoga:hover {
-  background-image: url(/Image/kinetyoga-blur.jpg);
+  background-image: url(../Image/kinetyoga-blur.jpg);
 }
 
 
@@ -930,7 +930,7 @@ form h2 {
 }
 
 input[type="submit"]::before {
-  content: url("/Pictos/voir.svg"); /* URL de l'icône */
+  content: url("../Pictos/voir.svg"); /* URL de l'icône */
   padding-right: 5px; /* Espacement entre le texte et l'icône */
 }
 
