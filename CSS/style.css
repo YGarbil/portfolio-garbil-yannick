@@ -289,7 +289,7 @@ h2 {
 }
 
 .design-graphique:hover {
-  background-image: url(/Image/fond-flouter-graphique.png);
+  background-image: url(../Image/fond-flouter-graphique.png);
   cursor: pointer;
   background-position: center;
   font-weight: 200;
@@ -317,7 +317,7 @@ h2 {
 }
 
 .design-ui:hover {
-  background-image: url(/Image/fond-flouter-ui.png);
+  background-image: url(../Image/fond-flouter-ui.png);
   cursor: pointer;
   background-position: center;
   font-weight: 200;
