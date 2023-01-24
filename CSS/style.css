@@ -117,10 +117,22 @@ a {
 }
 
 .title {
+  line-height: 80px;
+  margin: 50px 0px 0px 0px;
+}
+
+.name-designer {
   font-family: 'Krona One', sans-serif;
-  font-size: 75px;
+  font-size: 65px;
   color: white;
-  margin-bottom: 20px;
+  max-width: 300px;
+  font-weight: 100;
+}
+
+.name-uiux {
+  font-family: 'Krona One', sans-serif;
+  font-size: 85px;
+  color: white;
   min-width: auto;
   max-width: 300px;
   font-weight: 100;
@@ -135,13 +147,10 @@ a {
   background-color: #5472C7;
   min-width: auto;
   max-width: 300px;
+  text-align: center;
   padding: 20px;
   margin-top: 10px;
   z-index: 4;
-}
-
-h2 {
-  padding-right: 20px;
 }
 
 .text-home {
@@ -150,7 +159,7 @@ h2 {
   color: white;
   margin-bottom: 20px;
   line-height: 23px;
-  min-width: auto;
+  width: 70%;
 }
 
 .cv-btn {
@@ -191,7 +200,7 @@ h2 {
   height: 643px;
   mix-blend-mode: color-dodge;
   position: absolute;
-  top: 200px;
+  top: 120px;
   right: 200px;
   margin-left: 200px;
   bottom: 0;
@@ -586,17 +595,26 @@ h2 {
   color: white;
 }
 
-.sizodor:hove p {
+.sizodor:hover p {
   display: none;
 }
 
-.sizodor:hove .look {
+.sizodor:hover .look {
   display: grid;
   place-items: center;
   cursor: pointer;
+  place-items: center;
 }
 
-.sizodor:hove {
+.sizodor:hover {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  place-items: center;
+}
+
+
+.sizodor:hover {
   background-image: url(../Image/sizodor-blur.jpg);
 }
 
@@ -639,6 +657,12 @@ h2 {
 }
 
 .upgrade:hover .look {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.upgrade:hover {
   display: grid;
   place-items: center;
   cursor: pointer;
@@ -689,6 +713,13 @@ h2 {
 }
 
 .harmonie:hover {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+
+.harmonie:hover {
   background-image: url(../Image/harmonie-blur.jpg);
 }
 
@@ -734,9 +765,14 @@ h2 {
 }
 
 .kinetyoga:hover {
-  background-image: url(../Image/kinetyoga-blur.jpg);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
 }
 
+.kinetyoga:hover {
+  background-image: url(../Image/kinetyoga-blur.jpg);
+}
 
 .skill-word-project {
   background-color: #5472C7;
@@ -769,6 +805,7 @@ h2 {
   justify-content: center;
   place-items: center;
   align-items: center;
+  text-align: center;
 }
 
 .behance-btn {
@@ -781,6 +818,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 0 10px;
+margin-top: 25px;
 transition: 0.5s;
 font-size: 16px;
 font-family: 'Comfortaa', sans-serif;
@@ -794,8 +832,8 @@ color: white;
 }
 
 .container-contact-form {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .title-contact-container {
@@ -803,7 +841,7 @@ color: white;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .title-contact-container h2 {
@@ -820,13 +858,13 @@ color: white;
   color: #000000;
   font-weight: 200;
   margin-top: 5px;
+  line-height: 60px;
 }
 
 .contact-word {
   background-color: #5472C7;
   color: white;
   padding: 10px;
-  line-height: 70px;
 }
 
 .container-contact {
@@ -834,6 +872,7 @@ color: white;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
   margin-top: 50px;
   font-size: 16px;
   font-family: 'Comfortaa', sans-serif;
@@ -857,15 +896,13 @@ color: white;
 
 .container-form {
   margin-top: 90px;
-  display: grid;
-  align-items: center;
-  display: flex; /* Active la flexbox */
-  align-items: center; /* Centre les éléments en hauteur */
+  display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 form {
-  width: 700px;
+  width: 50%;
   background-color: #5472C7;
   padding: 50px;
   border-radius: 50px;
@@ -890,7 +927,7 @@ input[type="text"], input[type="email"], textarea {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 400;
   color: rgb(0, 0, 0);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 input[type="submit"] {
