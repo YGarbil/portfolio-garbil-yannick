@@ -57,6 +57,7 @@ nav .nav-container {
     height: 100vh;
     text-align: center;
     margin-left: -100%;
+    transition: all 0.5s ease;
   } 
 }
 
@@ -305,7 +306,7 @@ a {
   margin-top: 60px;
 }
 
-.subtitle-about h2{
+.subtitle-about h2 {
   font-family: 'Krona One', sans-serif;
   font-size: 20px;
   font-weight: 200;
@@ -1132,7 +1133,7 @@ input[type="submit"]:hover {
   background-color: #5472C7;
   border: 2px solid #031949;
   font-size: 16px;
-  padding: 10px 20px 10px 20px;
+  padding: 12px 22px;
   font-family: 'Comfortaa', sans-serif;
   font-weight: 400;
   color: white;
