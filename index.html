@@ -11,16 +11,19 @@
   <nav>
     <div class="nav-container">
       <div class="logo"><img src="Logo/Logo.svg" alt="logo"></div>
+      <div class="nav-links">
         <ul class="title-page-global">
           <li><a href="#" class="title-section">Accueil</a></li>
           <li><a href="#" class="title-section">À propos</a></li>
           <li><a href="#" class="title-section">Mes projets</a></li>
           <li><a href="#" class="title-section">Contact</a></li>
         </ul>
+      </div>
       <div class="social-icons">
         <a href="#https://www.behance.net/yannickgarbil"> <img class="behance-nav" src="Logo/logo-behance.svg" alt="Behance"></a>
         <a href="#https://www.linkedin.com/in/yannick-garbil-5b17a7181/"> <img class="linkedin-nav" src="Logo/logo-linkedin.svg" alt="LinkedIn"></a>
       </div>
+      <img src="./Pictos/burger-menu.svg" alt="burger-menu" class="burger-menu">
     </div>
   </nav>
 </header>
@@ -251,11 +254,24 @@
   </div>
   <footer>
     <div class="footer">
+      <div class="copyright-name">
         <img src="./Pictos/copyright.svg" alt="copyright">
         <p>Yannick garbil</p>
+      </div>
     </div>
   </footer>
 </body>
+<script>
+  const menuHamburger = document.querySelector(".burger-menu")
+  const navLinks = document.querySelector(".nav-links")
+
+  menuHamburger.addEventListener('click',()=>{
+  navLinks.classList.toggle('mobile-menu')
+  })
+</script>
 </html>
+
+
+
 
 
