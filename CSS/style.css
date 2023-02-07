@@ -967,12 +967,19 @@ form h2 {
 @media (max-width: 768px) {
 
 nav .nav-container {
-  width: 90%;
+  width: 80%;
+  padding: 10px 0 0 0;
 }
 
 .arrow {
   margin-top: 4rem;
   }
+
+.category-filter {
+    margin-top: 130px;
+    gap: 50px;
+  }
+}
 
 .home-container {
   background-image: url("../Image/fondaccueil-mobile.svg");
