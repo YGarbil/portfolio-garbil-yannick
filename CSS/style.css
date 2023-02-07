@@ -9,7 +9,7 @@ nav .nav-container {
   z-index: 5;
   padding: 30px 0 0 0;
   width: 70%;
-  position: absolute;
+  position: fixed;
 }
 
 .nav {
@@ -201,6 +201,7 @@ li {
 a {
   color: white;
   text-decoration: none;
+  color: white;
 }
 
 .title-section {
@@ -545,14 +546,14 @@ a {
   background-image: url(../Image/fond-millieu.svg);
   z-index: -2;
   background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
-  height: 47rem;
+  height: 40rem;
   width: 100%;
 }
 
 .about {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -942,6 +943,17 @@ form h2 {
 }
 
 @media (max-width: 980px) {
+  a {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .name-home {
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 60px;
+    letter-spacing: 25px;
+  }
 
   .about {
     display: flex;
@@ -957,6 +969,16 @@ nav .nav-container {
   width: 90%;
 }
 
+.home-container {
+  background-image: url("../Image/fondaccueil-mobile.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 40rem;
+}
+
   .name-home {
     font-size: 30px;
     line-height: 60px;
@@ -970,10 +992,6 @@ nav .nav-container {
     font-size: 60px;
     font-weight: 400;
     margin-bottom: 100px;
-  }
-
-  .category-filter {
-    margin-top: 90px;
   }
 
   .upgrade {
@@ -1004,12 +1022,37 @@ nav .nav-container {
     margin: 50px 0px 0px 0px;
   }
 
+  .picture-middle {
+    background-image: url(../Image/fontmilieu-mobile.svg);
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    height: 40rem;
+    width: 100%;
+  }
+
+   .container-skill {
+    margin-top: 90px;
+  }
+
   .ligne-separation {
     width: 100%;
     }
 
+  .skill img {
+    width: 230px;
+  }
+  
+  .skill-middle img {
+    width: 230px;
+  }
+
+
   .container-contact {
-    display: grid
+    display: grid;
+    margin-top: 50px;
   }
 
   .title-contact h2 {
@@ -1027,6 +1070,8 @@ nav .nav-container {
     margin-right: 0px;
     margin-top: 30px;
   }
+
+ 
 
   form {
     width: 100%;
