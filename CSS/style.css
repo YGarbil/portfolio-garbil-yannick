@@ -7,8 +7,9 @@ nav .nav-container {
   align-items: center;
   height: 67px;
   z-index: 5;
-  padding: 30px 0 0 0;
-  width: 83%;
+  padding: 10px 300px 10px 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 75%;
   position: fixed;
 }
 
@@ -967,8 +968,12 @@ form h2 {
 @media (max-width: 768px) {
 
 nav .nav-container {
-  width: 80%;
-  padding: 10px 0 0 0;
+  width: 88%;
+  padding: 10px 300px 10px 300px;
+}
+
+.social-icons {
+  order: -2;
 }
 
 .arrow {
@@ -979,7 +984,6 @@ nav .nav-container {
     margin-top: 130px;
     gap: 50px;
   }
-
 
 .home-container {
   background-image: url("../Image/fondaccueil-mobile.svg");
@@ -1058,6 +1062,7 @@ nav .nav-container {
   }
   
   .skill-middle img {
+    order: -1;
     width: 230px;
   }
 
@@ -1083,8 +1088,6 @@ nav .nav-container {
     margin-top: 30px;
   }
 
- 
-
   form {
     width: 100%;
     margin-right: 10px;
@@ -1106,5 +1109,7 @@ nav .nav-container {
 
   .footer {
     justify-content: center;
+    padding: 0 0 30px 0;
   }
+
 }

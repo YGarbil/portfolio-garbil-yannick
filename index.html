@@ -25,8 +25,8 @@
           </ul>
         </div>
         <div class="social-icons">
-          <a href="#https://www.behance.net/yannickgarbil"> <img class="behance-nav" src="Logo/logo-behance.svg" alt="Behance"></a>
-          <a href="#https://www.linkedin.com/in/yannick-garbil-5b17a7181/"> <img class="linkedin-nav" src="Logo/logo-linkedin.svg" alt="LinkedIn"></a>
+          <a href="https://www.behance.net/yannickgarbil" target="_blank"> <img class="behance-nav" src="Logo/logo-behance.svg" alt="Behance"></a>
+          <a href="https://www.linkedin.com/in/yannick-garbil-5b17a7181/" target="_blank"> <img class="linkedin-nav" src="Logo/logo-linkedin.svg" alt="LinkedIn"></a>
         </div>
       </div>
     </div>
@@ -69,16 +69,15 @@
         </div>
       </div>
     </div>
-    <!--<div class="category-item" data-category="illustration">
+    <div class="category-item" data-category="illustration">
       <div class="title-category">
-        <h2>Illustration</h2>
       </div>
       <div class="category">
         <div class="illustration">
-            Ajouter
+          <!--Ajouter-->
         </div>
       </div>
-    </div>-->
+    </div>
     <div class="category-item" data-category="photomontage">
       <div class="title-category">
       </div>
@@ -140,7 +139,7 @@
     </div>
       <img class="ligne-separation" src="./Pictos/ligne-separation.svg" alt="">
     <div class="skill">
-      <img src="../Image/illu-intérgation-09.svg" alt="">
+      <img src="./Image/illu-intérgation-09.svg" alt="">
       <div class="title-p-3">
         <h2>Intégration Web</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
@@ -161,13 +160,13 @@
       <img src="./Pictos/mail.svg" alt="mail de contact">
       <p>garbil.yannick@laposte.net</p>
     </div>
-    <div id="linkedin-contact" class="contact">
-      <img src="./Pictos/linkedin.svg" alt="Linkedin">
-      <p>Yannick Garbil</p>
+    <div id="linkedin-contact">
+      <a class="contact" href="https://www.linkedin.com/in/yannick-garbil-5b17a7181/" target="_blank"><img src="./Pictos/linkedin.svg" alt="Linkedin">
+      <p>Yannick Garbil</p></a>
     </div>
-    <div id="behance-contact" class="contact">
-      <img src="./Pictos/behance.svg" alt="Behance">
-      <p>Yannick Garbil</p>
+    <div id="behance-contact">
+      <a class="contact" href="https://www.behance.net/yannickgarbil" target="_blank"> <img src="./Pictos/behance.svg" alt="Behance">
+      <p>Yannick Garbil</p></a>
     </div>
   </div>
   <div class="container-form">
@@ -223,6 +222,16 @@
   });
   document.querySelector('.category-filter a[data-filter="all"]').click();
 
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos > 500) {
+    document.querySelector(".nav-container").style.background = "#171A2D";
+  } else {
+    document.querySelector(".nav-container").style.background = "transparent";
+  }
+};
+
 
   </script>
 </html>
+
