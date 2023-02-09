@@ -236,6 +236,7 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
+  height: 55rem;
   width: 100%;
 }
 
@@ -252,7 +253,7 @@ a {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 40px;
   margin-top: 100px;
 }
@@ -260,7 +261,7 @@ a {
 .title {
   color: white;
   font-family: 'Rowdies';
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 400;
   margin-bottom: 150px;
 }
@@ -271,13 +272,14 @@ a {
 }
 
 .arrow {
+  margin-top: 12rem;
   height: 25px;
 }
 
 .category-filter {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 5px;
   margin-bottom: 40px;
   gap: 125px;
   flex-wrap: wrap;
@@ -428,6 +430,34 @@ a {
   color: white;
 }
 
+.festisun {
+  background-image: url(../Image/festisun.jpg);
+  width: 490px;
+  height: 298px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: flex-end;
+  margin: 30px 50px 30px 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #00000026;
+  transition: 1.5s;
+}
+
+.festisun p {
+  background-color: #002e3dcc;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-top: 15px;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
 /* fin designe UI/UX */
 
 
@@ -437,6 +467,63 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.portrait {
+  background-image: url(../Image/illuportrait.png);
+  width: 490px;
+  height: 298px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: flex-end;
+  margin: 30px 50px 30px 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #00000026;
+  transition: 1.5s;
+}
+
+.portrait p {
+  background-color: #064646e9;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-top: 15px;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.pedipod {
+  background-image: url(../Image/pedipod.jpg);
+  width: 490px;
+  height: 298px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: flex-end;
+  margin: 30px 50px 30px 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #00000026;
+  transition: 1.5s;
+}
+
+.pedipod p {
+  background-color: #272727e7;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-top: 15px;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
 }
 /* fin Illustration */
 
@@ -466,6 +553,91 @@ a {
 
 .harmonie p {
   background-color: #360505CC;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-top: 15px;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.leopard {
+  background-image: url(../Image/leopard.jpg);
+  width: 490px;
+  height: 298px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: flex-end;
+  margin: 30px 50px 30px 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #00000026;
+  transition: 1.5s;
+}
+
+.leopard p {
+  background-color: #826765CC;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-top: 15px;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.nike {
+  background-image: url(../Image/affichenike.jpg);
+  width: 490px;
+  height: 298px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: flex-end;
+  margin: 30px 50px 30px 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #00000026;
+  transition: 1.5s;
+}
+
+.nike p {
+  background-color: #2E2C2DB2;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-top: 15px;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.illusion {
+  background-image: url(../Image/montageappareil.jpg);
+  width: 490px;
+  height: 298px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: flex-end;
+  margin: 30px 50px 30px 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #00000026;
+  transition: 1.5s;
+}
+
+.illusion p {
+  background-color: #2E2C2DB2;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -582,7 +754,7 @@ a {
   color: white;
   margin-top: 20px;
   line-height: 25px;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .cv-btn {
@@ -593,7 +765,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 10px 17px;
-  margin-top: 25px;
+  margin-top: 35px;
   transition: 0.5s;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -945,6 +1117,14 @@ form h2 {
   }
 }
 
+@media (max-width: 1240px) {
+
+.skill-middle img {
+  order: -1;
+}
+}
+
+
 @media (max-width: 980px) {
   a {
     margin-left: 0px;
@@ -978,7 +1158,7 @@ nav .nav-container {
 }
 
 .arrow {
-  margin-top: 4rem;
+  margin-top: 20rem;
   }
 
 .category-filter {
@@ -993,7 +1173,7 @@ nav .nav-container {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 40rem;
+  height: 50rem;
 }
 
   .name-home {
@@ -1009,6 +1189,25 @@ nav .nav-container {
     font-size: 60px;
     font-weight: 400;
     margin-bottom: 100px;
+  }
+
+  .design-uiux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .all-category-item {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+
+  .harmonie {
+    display: flex;
+    flex-direction: column;
   }
 
   .upgrade {
@@ -1039,6 +1238,48 @@ nav .nav-container {
     margin: 0px 0px 0px 0px;
   }
 
+  .festisun {
+    max-width: 320px;
+    height: 297px;
+    background-position: center;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .nike {
+    max-width: 320px;
+    height: 297px;
+    background-position: center;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .portrait {
+    max-width: 320px;
+    height: 297px;
+    background-position: center;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .illusion {
+    max-width: 320px;
+    height: 297px;
+    background-position: center;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .leopard {
+    max-width: 320px;
+    height: 297px;
+    background-position: center;
+    margin: 50px 0px 50px 0px;
+  }
+
+  .pedipod {
+    max-width: 320px;
+    height: 297px;
+    background-position: center;
+    margin: 0px 0px 50px 0px;
+  }
+
   .picture-middle {
     background-image: url(../Image/fontmilieu-mobile.svg);
     z-index: -2;
@@ -1062,6 +1303,10 @@ nav .nav-container {
     width: 230px;
   }
   
+.about p {
+  max-width: 90%;
+}
+
   .skill-middle img {
     order: -1;
     width: 230px;
