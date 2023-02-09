@@ -1227,6 +1227,24 @@ nav .nav-container {
     justify-content: center;
     }
 
+    .photomontage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
+
+    .illustration {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
+
+      .integration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+
     .all-category-item {
       display: flex;
       flex-wrap: wrap;
