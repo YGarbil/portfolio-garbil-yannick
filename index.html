@@ -109,12 +109,7 @@
     <div class="category-item" data-category="integration">
       <div class="category">
         <div class="integration">
-          <div class="kinetyoga">
-            <p>Site yoga Kinetyoga</p>
-          </div>        
-          <div class="sizodor">
-            <p>Site Coiffure Sizodor</p> 
-          </div>
+          <!--Ajouter-->
         </div>
       </div>
     </div>
@@ -247,34 +242,31 @@
       });
     });
   });
+
   document.querySelector('.category-filter a[data-filter="all"]').click();
 
-  window.onscroll = function() {
+window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
+  
   if (currentScrollPos > 500) {
     document.querySelector(".nav-container").style.background = "#171A2D";
   } else {
     document.querySelector(".nav-container").style.background = "transparent";
   }
-};
 
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("back-to-top").style.display = "block";
   } else {
     document.getElementById("back-to-top").style.display = "none";
   }
-}
+};
 
-function topFunction() {
+document.querySelector('.category-filter a[data-filter="all"]').click();
+
+document.getElementById("back-to-top").addEventListener("click", function() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
-
-document.getElementById("back-to-top").addEventListener("click", topFunction);
+});
 
   </script>
 </html>
