@@ -637,7 +637,7 @@ a {
 }
 
 .illusion p {
-  background-color: #2E2C2DB2;
+  background-color: #1c1b1cd4;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -1037,9 +1037,10 @@ form h2 {
   background-image: url(../Image/fond-footer.svg);
   gap: 10px;
   padding: 20px 50px 20px 20px;
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 400;
-  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
   font-size: 14px;
 }
 
@@ -1054,6 +1055,35 @@ form h2 {
 
 .copyright-name p {
   margin-left: 10px;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#back-to-top img {
+  width: 40px;
+  margin-bottom: 5px;
+}
+
+#back-to-top p {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+
+#back-to-top:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1240px) {

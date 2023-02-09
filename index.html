@@ -205,6 +205,11 @@
       <input type="submit" value="Envoyer">
     </form>
 </div>
+<a href="#" id="back-to-top" title="Retour en haut de page">
+  <img src="./Pictos/back-to-the-top.png" alt="Retour en haut">
+  <br>
+  <p>TOP</p> 
+</a>
 <footer>
   <div class="footer">
     <div class="copyright-name">
@@ -252,6 +257,24 @@
     document.querySelector(".nav-container").style.background = "transparent";
   }
 };
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+document.getElementById("back-to-top").addEventListener("click", topFunction);
 
   </script>
 </html>
