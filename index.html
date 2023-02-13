@@ -185,20 +185,26 @@
       <p>Yannick Garbil</p></a>
     </div>
   </div>
-  <div class="container-form">
-    <form>
-      <div class="title-form">
+<div class="container-form">
+  <form>
+    <div class="title-form">
       <h2>Contactez moi !</h2>
       <img src="./Pictos/picto-form.svg" alt="">
+    </div>
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Nom Prénom"><br> 
+    <label for="email"></label>
+    <input type="email" id="email" name="email" placeholder="Adresse mail"><br>
+    <label for="message"></label>
+    <textarea id="message" name="message" placeholder="Votre message"></textarea><br>
+    <form>
+      <div class="section-btn">
+        <button class="btn-form" type="submit">
+            <a><span>Envoyer</span></a>
+        </button>
       </div>
-      <label for="name"></label>
-      <input type="text" id="name" name="name" placeholder="Nom Prénom"><br> 
-      <label for="email"></label>
-      <input type="email" id="email" name="email" placeholder="Adresse mail"><br>
-      <label for="message"></label>
-      <textarea id="message" name="message" placeholder="Votre message"></textarea><br>
-      <input type="submit" value="Envoyer">
     </form>
+  </form>
 </div>
 <a href="#" id="back-to-top" title="Retour en haut de page">
   <img src="./Pictos/back-to-the-top.png" alt="Retour en haut">
@@ -216,12 +222,21 @@
 </body>
 
 <script>
-    var burgerMenu = document.getElementById('burger-menu');
-    var overlay = document.getElementById('menu');
-    burgerMenu.addEventListener('click',function(){
-      this.classList.toggle("close");
-      overlay.classList.toggle("overlay");
-    });
+var burgerMenu = document.getElementById('burger-menu');
+var overlay = document.getElementById('menu');
+var links = document.querySelectorAll('.nav-links a');
+
+burgerMenu.addEventListener('click', function() {
+  this.classList.toggle("close");
+  overlay.classList.toggle("overlay");
+});
+
+links.forEach(function(link) {
+  link.addEventListener('click', function() {
+    burgerMenu.classList.remove("close");
+    overlay.classList.remove("overlay");
+  });
+});
 
 
   const filterLinks = document.querySelectorAll('.category-filter a');
@@ -245,6 +260,7 @@
 
   document.querySelector('.category-filter a[data-filter="all"]').click();
 
+  
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   
@@ -267,7 +283,6 @@ document.getElementById("back-to-top").addEventListener("click", function() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
-
   </script>
 </html>
 
