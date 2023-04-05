@@ -316,6 +316,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 80px;
 }
 
 .title-category {
@@ -340,7 +341,9 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1700px;
+  max-width: 1500px;
+  gap: 100px;
+  margin-top: 50px;
 }
 
 .upgrade {
@@ -353,7 +356,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -382,7 +384,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -411,7 +412,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -439,7 +439,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -467,7 +466,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1700px;
+  max-width: 1500px;
 }
 
 .portrait {
@@ -480,9 +479,9 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
+  margin: 30px 50px 30px 50px;
   transition: 1.5s;
 }
 
@@ -508,8 +507,8 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
+  margin: 30px 50px 30px 50px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
 }
@@ -534,7 +533,8 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1700px;
+  max-width: 1500px;
+  gap: 80px;
 }
 
 .harmonie {
@@ -547,7 +547,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -576,7 +575,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -604,7 +602,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -632,7 +629,6 @@ a {
   background-repeat: no-repeat;
   display: grid;
   place-items: flex-end;
-  margin: 30px 50px 30px 50px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px #00000026;
   transition: 1.5s;
@@ -658,7 +654,8 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1700px;
+  max-width: 1500px;
+  gap: 80px;
 }
 /* fin Intégration */
 
@@ -1074,6 +1071,7 @@ form h2 {
   justify-content: flex-start;
   background-size: cover;
   background-image: url(../Image/fond-footer.svg);
+  background-position: center;
   gap: 10px;
   padding: 20px 50px 20px 20px;
   font-size: 16px;
@@ -1123,6 +1121,20 @@ form h2 {
 
 #back-to-top:hover {
   cursor: pointer;
+}
+
+.title-end {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.title-end p {
+  color: white;
+  font-family: 'Rowdies';
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 50px;
 }
 
 @media (max-width: 1240px) {
@@ -1296,35 +1308,30 @@ nav .nav-container {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 50px 0px 0px 0px;
   }
 
   .kinetyoga {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 50px 0px 0px 0px;
   }
 
   .sizodor {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 50px 0px 50px 0px;
   }
 
   .harmonie {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 0px 0px 0px 0px;
   }
 
   .festisun {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 0px 0px 50px 0px;
   }
 
   .nike {
@@ -1338,28 +1345,24 @@ nav .nav-container {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 0px 0px 50px 0px;
   }
 
   .illusion {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 0px 0px 50px 0px;
   }
 
   .leopard {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 50px 0px 50px 0px;
   }
 
   .pedipod {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 0px 0px 50px 0px;
   }
 
   .picture-middle {
