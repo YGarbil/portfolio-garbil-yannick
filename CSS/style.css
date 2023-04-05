@@ -1335,61 +1335,70 @@ nav .nav-container {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 30px 0px 0px 0px;
   }
 
   .kinetyoga {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 30px 0px 0px 0px;
   }
 
   .sizodor {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 30px 0px 30px 0px;
   }
 
   .harmonie {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 0px 0px 0px 0px;
   }
 
   .festisun {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 0px 0px 30px 0px;
   }
 
   .nike {
     max-width: 320px;
     height: 297px;
     background-position: center;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 30px 0px;
   }
 
   .portrait {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 0px 0px 30px 0px;
   }
 
   .illusion {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 0px 0px 30px 0px;
   }
 
   .leopard {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 30px 0px 30px 0px;
   }
 
   .pedipod {
     max-width: 320px;
     height: 297px;
     background-position: center;
+    margin: 0px 0px 30px 0px;
   }
 
   .picture-middle {
