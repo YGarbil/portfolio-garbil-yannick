@@ -105,6 +105,7 @@ nav ul li a:hover::before {
   top: -10px;
   width: 27px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 #burger-menu span:after {
@@ -119,6 +120,7 @@ nav ul li a:hover::before {
   top: 10px;
   width: 27px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 #burger-menu.close span {
@@ -682,7 +684,7 @@ a {
 
 .text-btn-behance {
   display: grid;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   color: white;
@@ -705,7 +707,7 @@ a {
   padding: 10px 17px;
   margin-top: 25px;
   transition: 0.5s;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
@@ -788,7 +790,7 @@ a {
   padding: 10px 17px;
   margin-top: 35px;
   transition: 0.5s;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
@@ -798,7 +800,7 @@ a {
 .cv-btn span {
   margin-right: 15px;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
