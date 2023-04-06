@@ -349,7 +349,6 @@ a {
   background-image: url(../Image/upgrade-sante.png);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -378,7 +377,6 @@ a {
   background-image: url(../Image/kinetyoga.png);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -407,7 +405,6 @@ a {
   background-image: url(../Image/sizodor.png);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -436,7 +433,6 @@ a {
   background-image: url(../Image/festisun.jpg);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
@@ -477,7 +473,6 @@ a {
   background-image: url(../Image/illuportrait.png);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -506,7 +501,6 @@ a {
   background-image: url(../Image/pedipod.jpg);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
@@ -545,7 +539,6 @@ a {
   background-image: url(../Image/harmonie-music.png);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -574,7 +567,6 @@ a {
   background-image: url(../Image/leopard.jpg);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -603,7 +595,6 @@ a {
   background-image: url(../Image/affichenike.jpg);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
@@ -631,7 +622,6 @@ a {
   background-image: url(../Image/montageappareil.jpg);
   width: 490px;
   height: 298px;
-  cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
@@ -671,19 +661,23 @@ a {
   display: inline-block;
   overflow: hidden;
   position: relative;
-  cursor: pointer;
+  cursor: pointer!important;
 }
 
 /* Style pour les divs enfants des éléments avec la classe "zoom" */
 .zoom > div {
   transition: transform 0.3s ease-in-out;
-  cursor: pointer;
+  cursor: pointer!important;
 }
 
 /* Effet de zoom au survol */
 .zoom:hover > div {
   transform: scale(1.1);
-  cursor: pointer;
+  cursor: pointer!important;
+}
+
+.zoom:hover {
+  cursor: pointer!important;
 }
 
 .text-btn-behance {
